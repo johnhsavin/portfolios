@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(225, 240, 9);
+    font-family: fantasy;
+    
+}
+
+header {
+    background-color: silver;
+    font-size: 2rem;
+    text-align: center;
+    border: 15px double red;
+    border-radius: 70%;
+    
+}
+
+section {
+    padding: 2rem;
+    margin: 12px;
+    
+}
+
+#about {
+    border: 10px dotted blue;
+
+}
+
+#projects {
+
+border: 20px solid orange;
+border-radius: 50px 50px;
+text-align: center;
+}
+
+#contact {
+    border: 1rem dashed  black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#matrix {
+    width: 700px;
+    height: 500px;
+
+}
+
+ol {
+display: flex;
+flex-wrap: wrap;
+list-style: none;
+justify-content: center;
+
+
+}
+
+li {
+    border: 1px solid red;
+    margin: 5px;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+}
